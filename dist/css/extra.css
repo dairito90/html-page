@@ -1,0 +1,56 @@
+h2 {
+  color:black;
+
+}
+#first{
+  color:yellow;
+}
+.purple{
+  background-color: purple;
+
+}
+#white {
+   color:white;
+}
+.second-slide {
+  background-size: cover;
+}
+#fontsize{
+  font-size: 15px;
+}
+.third-slide {
+  background-size:cover;
+}
+#fontsize{
+  font-size:15px;
+}
+#fontsize{
+  font-size:15px;
+}
+.yellow{
+  background-color:yellow;
+}
+ h1{
+   color:Blue;
+ }
+.img-circle{
+  border:5px solid red;
+}
+.img-circle{
+  border:5px solid blue;
+}
+.red{
+  background-color:red;
+}
+h1:hover{
+  color:rgba(63, 44, 241, 0.36);
+}
+h2:hover{
+  color:rgba(63, 44, 241, 0.36);
+}
+.btn:hover{
+  background-color:rgba(86, 44, 241, 0.83);
+}
+.btn:hover{
+  background-color: rgba(86, 44, 241, 0.83);
+}
