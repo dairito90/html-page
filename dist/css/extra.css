@@ -12,14 +12,12 @@ h2 {
 #white {
    color:white;
 }
-.second-slide {
-  background-size: cover;
-}
 #fontsize{
   font-size: 15px;
 }
-.third-slide {
-  background-size:cover;
+.carousel-item img {
+  background-position: center;
+  background-size: cover;
 }
 #fontsize{
   font-size:15px;
