@@ -162,7 +162,7 @@
       <hr class="featurette-divider">
 
       <div class="contact-form">
-        <form class="email form" action="http://fvi-grad.com:4004/email" method="post">
+        <form id="contact-form" class="email form" action="http://fvi-grad.com:4004/email" method="post">
           <div class="form-group">
           <input class="form-control" type="email" name="dest_email" value="drodriguez@fvi.edu" style="display: none;">
            <input class="form-control" type="text" name="full_name" value="" placeholder="Full Name">
@@ -171,8 +171,8 @@
            <input class="form-control" type="time" name="hora" value="" placeholder="Time">
            <input class="form-control" type="text" name="email" value="" placeholder="Your Email Address">
            <input class="form-control" type="text" name="subject" value="" placeholder="Subject">
-           <textarea class="form-control" name="message" rows="8" cols="50"></textarea>
-          <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+           <textarea id="textarea" class="form-control" name="message" rows="8" cols="50" placeholder="Message"></textarea>
+          <button id="form-submit" type="submit" name="submit" class="btn btn-primary">Submit</button>
          </div>
          </form>
 
@@ -198,5 +198,6 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="../../dist/js/main.js"></script>
   </body>
 </html>
