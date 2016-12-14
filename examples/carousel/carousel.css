@@ -71,6 +71,47 @@ body {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
+#gallery{
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+#gallery figure{
+  max-width: 200px;
+  display: inline-block;
+}
+
+#gallery figure img{
+  width: 100%;
+
+}
+
+#gallery figcaption{
+text-align: center;
+
+}
+
+
+#cards{
+  display: flex;
+  flex-flow:  row wrap;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+#cards .card{
+  max-width: 200px;
+  margin: 10px;
+  
+}
+
+
+.card img{
+  width: 100%;
+}
+
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
